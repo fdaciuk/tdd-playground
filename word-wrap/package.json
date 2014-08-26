@@ -1,0 +1,27 @@
+{
+  "name": "word-wrap",
+  "version": "0.0.1",
+  "description": "Pass two params to method: string and number of characters to break line.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --reporter min --growl --watch tests/**/*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:fdaciuk/tdd-playground.git"
+  },
+  "keywords": [
+    "word",
+    "wrap"
+  ],
+  "author": "Fernando Daciuk (@fdaciuk)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fdaciuk/tdd-playground/issues"
+  },
+  "homepage": "https://github.com/fdaciuk/tdd-playground",
+  "devDependencies": {
+    "mocha": "^1.21.4",
+    "should": "^4.0.4"
+  }
+}
