@@ -2,3 +2,4 @@
 __MACOSX/*
 tdd-test
 **/node_modules
+npm-debug.log
