@@ -20,7 +20,7 @@
         // ------------------------
 
         $public.wrap = function wrap( text, maxLength ) {
-            return 'string';
+            return text;
         }
 
         // ------------------------
