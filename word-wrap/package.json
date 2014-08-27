@@ -4,7 +4,7 @@
   "description": "Pass two params to method: string and number of characters to break line.",
   "main": "index.js",
   "scripts": {
-    "test": "mocha --reporter min --growl --watch tests/**/*"
+    "test": "mocha --reporter list --growl --watch tests/**/*"
   },
   "repository": {
     "type": "git",
