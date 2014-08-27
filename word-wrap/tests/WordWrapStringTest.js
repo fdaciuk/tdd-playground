@@ -1,5 +1,6 @@
 var should = require( 'should' );
 var WordWrap = require( '../js/WordWrapString' )();
+var wrap = WordWrap.wrap;
 
 describe( 'WordWrapString.js', function() {
     it( 'should be true - TEST TOOL', function() {
@@ -7,17 +8,14 @@ describe( 'WordWrapString.js', function() {
     });
 
     it( 'should return the text passed on the first param', function() {
-        var wordwrap = WordWrap.wrap( 'string' );
-        wordwrap.should.be.equal( 'string' );
+        wrap( 'string' ).should.be.equal( 'string' );
     });
 
     it( 'should return the first param when the second param is null or undefined', function() {
-        var wordwrap = WordWrap.wrap( 'my string' );
-        wordwrap.should.be.equal( 'my string' );
+        wrap( 'my string' ).should.be.equal( 'my string' );
     });
 
     it( 'should break the word on the space set on the second param', function() {
-        var wordwrap = WordWrap.wrap( 'string two', 7 );
-        wordwrap.should.be.equal( 'string\ntwo' );
+        wrap( 'string two', 7 ).should.be.equal( 'string\ntwo' );
     });
 });
