@@ -17,7 +17,7 @@ describe( 'WordWrapString.js', function() {
     });
 
     it( 'should break the word on the space set on the second param', function() {
-        var wordwrap = WordWrap.wrap( 'string two' );
+        var wordwrap = WordWrap.wrap( 'string two', 7 );
         wordwrap.should.be.equal( 'string\ntwo' );
     });
 });
