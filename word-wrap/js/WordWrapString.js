@@ -20,7 +20,18 @@
         // ------------------------
 
         $public.wrap = function wrap( text, maxLength ) {
-            return text;
+            var phraseStart = text.substr( 0, maxLength );
+            var phraseEnd = text.substr( maxLength );
+
+            if( ! maxLength ) {
+                return text;
+            }
+
+            if( phraseEnd[0] === ' ' ) {
+                phraseEnd = phraseEnd.slice( 1 );
+            }
+
+            return phraseStart + '\n' + phraseEnd;
         }
 
         // ------------------------
