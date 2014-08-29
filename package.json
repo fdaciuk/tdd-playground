@@ -4,7 +4,7 @@
   "description": "Playground to test tests :P",
   "main": "index.js",
   "scripts": {
-    "test": "mocha tests/**/*"
+    "test": "gulp mocha"
   },
   "repository": {
     "type": "git",
