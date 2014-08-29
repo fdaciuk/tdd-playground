@@ -1,3 +1,5 @@
+'use strict';
+
 var should = require( 'should' );
 var WordWrap = require( '../js/WordWrapString' )();
 var wrap = WordWrap.wrap;
