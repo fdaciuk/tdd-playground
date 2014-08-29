@@ -1,0 +1,24 @@
+{
+  "name": "tdd-playground",
+  "version": "1.0.0",
+  "description": "Playground to test tests :P",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fdaciuk/tdd-playground.git"
+  },
+  "keywords": [
+    "tdd",
+    "playground"
+  ],
+  "author": "Fernando Daciuk (@fdaciuk)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fdaciuk/tdd-playground/issues"
+  },
+  "homepage": "https://github.com/fdaciuk/tdd-playground",
+  "devDependencies": {
+    "gulp": "^3.8.7",
+    "gulp-mocha": "^1.0.0"
+  }
+}
