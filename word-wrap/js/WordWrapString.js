@@ -27,6 +27,10 @@
                 return text;
             }
 
+            if( text.length <= maxLength ) {
+                return text;
+            }
+
             if( phraseEnd[0] === ' ' ) {
                 phraseEnd = phraseEnd.slice( 1 );
             }

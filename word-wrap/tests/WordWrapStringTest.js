@@ -14,4 +14,8 @@ describe( 'WordWrapString.js', function() {
     it( 'should break the word on the space set on the second param', function() {
         wrap( 'string two', 6 ).should.be.equal( 'string\ntwo' );
     });
+
+    it( 'should return the first param, if the second param is greater or equal text.length', function() {
+        wrap( 'this phrase is very big', 25 ).should.be.equal( 'this phrase is very big' );
+    });
 });
