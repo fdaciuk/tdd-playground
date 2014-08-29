@@ -1,7 +1,6 @@
 # TDD / BDD Experiments
 
 [ ![Codeship Status for fdaciuk/tdd-playground](https://www.codeship.io/projects/c52f5d60-0f30-0132-5580-469557c864a2/status)](https://www.codeship.io/projects/32569)
-
 [![Build Status](https://travis-ci.org/fdaciuk/tdd-playground.svg?branch=master)](https://travis-ci.org/fdaciuk/tdd-playground)
 
 ## License
