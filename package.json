@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Playground to test tests :P",
   "main": "index.js",
+  "scripts": {
+    "test": "mocha tests/**/*"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/fdaciuk/tdd-playground.git"
