@@ -4,6 +4,7 @@
 [![Build Status](https://travis-ci.org/fdaciuk/tdd-playground.svg?branch=master)](https://travis-ci.org/fdaciuk/tdd-playground)
 [![Coverage Status](https://img.shields.io/coveralls/fdaciuk/tdd-playground.svg)](https://coveralls.io/r/fdaciuk/tdd-playground)
 [![Code Climate](https://codeclimate.com/github/fdaciuk/tdd-playground/badges/gpa.svg)](https://codeclimate.com/github/fdaciuk/tdd-playground)
+[![Test Coverage](https://codeclimate.com/github/fdaciuk/tdd-playground/badges/coverage.svg)](https://codeclimate.com/github/fdaciuk/tdd-playground)
 
 ## License
 The MIT License
