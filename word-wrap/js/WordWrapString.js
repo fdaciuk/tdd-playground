@@ -1,3 +1,4 @@
+/* global define, exports, module */
 (function (factory ) {
     'use strict';
     if ( typeof define === 'function' && define.amd ) {
@@ -36,7 +37,7 @@
             }
 
             return phraseStart + '\n' + phraseEnd;
-        }
+        };
 
         // ------------------------
 
