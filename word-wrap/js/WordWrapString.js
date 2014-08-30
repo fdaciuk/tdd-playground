@@ -8,8 +8,8 @@
         exports = module.exports = factory();
     }
     else {
-        root.Module = ( root.Module || {} );
-        root.Module.WordWrapString = factory();
+        this.Module = ( this.Module || {} );
+        this.Module.WordWrapString = factory();
     }
 })( function() {
     'use strict';
