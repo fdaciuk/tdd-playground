@@ -4,3 +4,6 @@ tdd-test
 node_modules
 **/node_modules
 npm-debug.log
+
+coverage/coverage-final.json
+coverage/lcov.info

@@ -22,6 +22,7 @@
   "homepage": "https://github.com/fdaciuk/tdd-playground",
   "devDependencies": {
     "gulp": "^3.8.7",
+    "gulp-istanbul": "^0.2.2",
     "gulp-mocha": "^1.0.0"
   }
 }
