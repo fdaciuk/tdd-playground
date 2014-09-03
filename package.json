@@ -21,8 +21,11 @@
   },
   "homepage": "https://github.com/fdaciuk/tdd-playground",
   "devDependencies": {
+    "coveralls": "^2.11.1",
     "gulp": "^3.8.7",
     "gulp-istanbul": "^0.2.2",
-    "gulp-mocha": "^1.0.0"
+    "gulp-mocha": "^1.0.0",
+    "mocha": "^1.21.4",
+    "mocha-lcov-reporter": "0.0.1"
   }
 }
