@@ -1,6 +1,7 @@
 /* global define, exports, module */
-(function (factory ) {
+(function ( factory ) {
     'use strict';
+    /* istanbul ignore next */
     if ( typeof define === 'function' && define.amd ) {
         define( factory );
     }
@@ -24,11 +25,7 @@
             var phraseStart = text.substr( 0, maxLength );
             var phraseEnd = text.substr( maxLength );
 
-            if( ! maxLength ) {
-                return text;
-            }
-
-            if( text.length <= maxLength ) {
+            if( ! maxLength || text.length <= maxLength ) {
                 return text;
             }
 

@@ -26,5 +26,5 @@ gulp.task('test', function ( cb ) {
 });
 
 gulp.task( 'default', function() {
-    gulp.watch( 'word-wrap/tests/*.js', [ 'mocha' ]);
+    gulp.watch( 'word-wrap/{js,tests}/*.js', [ 'test' ]);
 });
