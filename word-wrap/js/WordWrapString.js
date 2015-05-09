@@ -21,11 +21,11 @@
 
         // ------------------------
 
-        $public.wrap = function wrap( text, maxLength ) {
+        $public.wrap = function( text, maxLength ) {
             var phraseStart = text.substr( 0, maxLength );
             var phraseEnd = text.substr( maxLength );
 
-            if( ! maxLength || text.length <= maxLength ) {
+            if( ! $private.isMaxLengthDefined( maxLength ) || text.length <= maxLength ) {
                 return text;
             }
 
@@ -34,6 +34,12 @@
             }
 
             return phraseStart + '\n' + phraseEnd;
+        };
+
+        // ------------------------
+
+        $private.isMaxLengthDefined = function( maxLength ) {
+            return maxLength;
         };
 
         // ------------------------

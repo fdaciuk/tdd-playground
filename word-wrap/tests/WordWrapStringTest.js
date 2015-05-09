@@ -20,4 +20,8 @@ describe( 'WordWrapString.js', function() {
     it( 'should return the first param, if the second param is greater or equal text.length', function() {
         wrap( 'this phrase is very big', 25 ).should.be.equal( 'this phrase is very big' );
     });
+
+    // it( 'should break two times', function() {
+    //     wrap( 'this phrase is very big', 10 ).should.be.equal( 'this\nphrase is\nvery big' );
+    // });
 });
